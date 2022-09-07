@@ -1,0 +1,66 @@
+body {
+    background: #562B39;
+    margin: 0;
+}
+
+.TopBar{
+    background-color: #562B39;
+    size: 30px;
+}
+
+.Nav{
+    display: flex;
+    justify-content: center;
+}
+
+.TopBar{
+    overflow: hidden;
+    display: flex;
+    width: min-content;
+    /*justify-content: center;*/
+}
+.Icon{
+    justify-content: left;
+    margin-top: 5px;
+}
+
+.Tabs{
+    overflow: hidden;
+    display: flex;
+    width: min-content;
+    justify-content: center;
+}
+
+.TopBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.TopBar a:hover {
+    background-color: #331922;
+    color: black;
+}
+
+.TopBar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.Dynmap {
+    text-align: center;
+}
+
+.FrontPage {
+    margin: 0;
+    background-image: url('mainbackground.png');
+    position: relative;
+    width: auto;
+}
+
+body {
+    background-color: #87435A;
+}
