@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html lang="sv">
     <head>
-        <title>Sag's Sida!</title>
+        <title>Sag's Page!</title>
         <meta charset="utf-8" />
         <meta name="author" content="Sag" />
         <meta name="description" content="A fun website :D" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
         <link href="style.css" type="text/css" rel="stylesheet">
+        <!--930 min width for good look-->
     </head>
     <body>
-        <nav>
-            <img class="Icon" src="SagIcon.png" alt="Logo" width="40" height="40">
-            <a class="Active Tabs" href="index.html">Home</a>
-            <a class="Tabs" href="contact.html">Kontakt</a>
-            <a class="Tabs" href="links.html">Dynmap</a>
-            <a class="Tabs" href="https://discord.gg/tbPCRQV" target="_blank">Discord</a>
-        </nav>
-        <main class="FrontPage" height="400"> 
-            <p height="400"></p>
+        <header>
+            <nav>
+                <div class="container">
+                    <img class="Icon" src="SagIcon.png" alt="Logo">
+                    <a class="Active" href="index.html">Home</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="links.html">Links</a>
+                    <a href="schedule.html">Schedule</a>
+                    <a href="https://discord.gg/tbPCRQV" target="_blank">Discord</a>
+                </div>
+            </nav>
+        </header>
+        <main class="frontpage"> 
+            <img class="background" src="mainbackground.png" alt="">
+            <div class="main-embeds">
+                <div class="twitch-embed">
+                    <a href="https://twitch.tv/sag0550" target="_blank">Twitch!</a>
+                    <br>
+                    <iframe src="https://player.twitch.tv/?channel=sag0550&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="567" width="930" parent="http://sag05.xyz"></iframe>
+                </div>
+
+                <div class="yt-embed">
+                    <a href="https://www.youtube.com/channel/UCQs7LQNQhp_OMWetN_QLQyA" target="_blank">Youtube!</a>
+                    <br>
+                    <iframe width="930" height="567" src="https://www.youtube.com/embed/Q47RMjBbik0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!--<iframe width="930" height="567" src="https://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=user_uploads&list=YOUR_CHANNEL_NAME_HERE" frameborder="0" allowfullscreen></iframe>-->
+                </div> 
+            </div>
         </main>
+        <footer>
+            <div class="footerText">
+                <h1>Links</h1>
+                <a class="footerLink" href="contact.html">Contact</a>
+                <br>
+                <a class="footerLink" href="links.html">Additional Links</a>
+                <br>
+                <a class="footerLink" href="https://discord.gg/tbPCRQV" target="_blank">Discord</a>
+            </div>
+            <div class="madeBy">
+                <p>Made by Sag0550  
+                    <img class="Icon" src="SagIcon.png" alt="Logo">
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
