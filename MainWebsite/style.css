@@ -165,6 +165,23 @@ footer{
     line-height: 40px;
 }
 
+.link-aside{
+    float: right;
+    margin-right: 30%; 
+}
+
+@media only screen and (max-width: 840){
+    .link-aside{
+        margin-right: 0%;
+    }
+}
+
+@media only screen and (max-width: 600) {
+    .link-aside{
+        float: none;
+        margin-right: 0%;
+    }
+}
 
 @media only screen and (max-width: 929){
     #yt-video{

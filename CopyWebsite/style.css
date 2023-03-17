@@ -1,0 +1,72 @@
+/* -- All -- */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* -- Top Bar -- */
+header{
+    padding: 20px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+@media screen and (max-width: 639px) {
+    header{
+        display: flex;
+    }
+
+    img{
+        align-self: flex-start;
+    }
+
+    nav{
+        align-self: flex-end;
+    }
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+nav > a{
+    margin: 0px 5px;
+}
+
+#contact-align{
+    padding-right: 40px;
+}
+
+/* -- Banner -- */
+.banner{
+    padding-top: 63px;
+}
+
+.banner > img{
+    width: 100vw;
+    height: 1%;
+}
+
+.banner > h1{
+    font-family: 'Space Mono', monospace;
+    text-shadow: 0 0 20px #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    text-align: center;
+    z-index: 0;
+}
+
+/* -- Main Content -- */
+h2{
+    text-align: center;
+}

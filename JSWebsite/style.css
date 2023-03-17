@@ -1,0 +1,86 @@
+/* -- All -- */
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* -- Navbar -- */
+nav{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(235, 102, 168);
+}
+
+a, nav > button{
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px 5px;
+    outline: 2px solid black;
+    background-color: rgb(229, 142, 186);
+    color: black;
+    font-size: 20px;
+
+}
+
+nav > button{
+    padding-top: 4px;
+    border: 0;
+}
+
+nav > button:hover, a:hover{
+    background-color: rgb(223, 173, 198);
+}
+
+/* -- Title -- */
+#welcome-text{
+    font-size: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+main{
+    margin-top: 5vh;
+}
+
+/* -- Main Text -- */
+#li-title{
+    text-align: center;
+}
+
+#main-text{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#lorem-ipsum{
+    text-align: center;
+    width: 70vw;
+}
+
+/* -- Articles -- */
+#article-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#articles{
+    display: flex;
+    justify-content: center;
+}
+
+#new-article-button{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 150px;
+    padding: 5px 10px;
+    justify-content: center;
+}
+
+#centered{
+    text-align: center;
+}
