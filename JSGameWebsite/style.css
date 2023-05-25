@@ -18,8 +18,10 @@
     background-color: black;
 }
 /* -- Click Area -- */
-#car-image{
+#stone-image{
     margin: 50px;
+    width: 200px;
+    height: 200px;
 }
 
 #money{
